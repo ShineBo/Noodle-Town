@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+  }
+
+@layer utilities {
+  .active{
+   @apply bg-primary px-4 py-2 rounded-full bg-opacity-70;
+  }
+}
