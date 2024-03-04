@@ -95,7 +95,7 @@ const Nav = () => {
         />
       </div>
       {isMenuOpen && (
-        <div className="w-full max-md:block md:w-auto">
+        <div className="w-full max-md:block md:w-auto relative z-1">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
             <li onClick={toggleMenu}>
               <button onClick={() => handleSectionClick('home')} className="block py-2 px-3 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">

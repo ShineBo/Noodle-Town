@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { useEffect } from 'react';
 import logo from '../assets/Logos/whitelogo.svg';
 import PhoneLogo from '../assets/Logos/telephone-call.png'
@@ -15,8 +16,14 @@ const ReservationForm = () => {
   }, []);
 
   return (
-    <div className='bg-gradient-to-tl from-yellow-200 via-primary-500 to-black to-85%'>
-    <section className=' px-32 max-lg:px-12 flex gap-16 max-xl:gap-6 max-xl:flex-col'>
+    <div className='bg-gradient-to-tl from-primary-500 via-dark-slate-gray to-dark-slate-gray to-85%'>
+    <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -50 }}
+            transition={{ duration: 0.5 }}
+            className=' px-32 max-lgn:px-12 flex gap-16 max-xl:gap-6 max-xl:flex-col'
+    >
       <div className='flex flex-col' >
         <div className='flex flex-col justify-center items-center w-full h-full mt-4 cursor-pointer'>
           <img onClick={() => navigate('/')} src={logo} alt="logo" width={120} height={120} className=' max-md:w-[100px] max-md:h-[100px]' />
@@ -86,9 +93,9 @@ const ReservationForm = () => {
       <div className=' flex justify-center items-center flex-shrink-0'>
         <img src={ReservationImg} alt="" width={600} height={600} className=' rounded-lg ' />
       </div>
-    </section>
+    </motion.div>
     <div className=' py-16'>
-      <h1 className=' text-center font-inconsol text-3xl font-bold leading-normal'>Privacy Policy and Terms:</h1>
+      <h1 className=' text-center font-inconsol text-3xl font-bold leading-normal text-white-400'>Privacy Policy and Terms:</h1>
       <section className=' flex max-md:flex-col max-md:px-6 px-80'>
         <PrivacyPolicy />
         <TermsOfService />

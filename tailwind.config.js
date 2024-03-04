@@ -14,8 +14,9 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
+      '6xl': ['78px', '95px'], // new size
       '8xl': ['96px', '106px']
-    },
+    },    
     extend: {
       fontFamily: {
         inconsol: ['Oxygen', 'sans-serif'],
@@ -29,7 +30,7 @@ export default {
         'primary-400': '#EEDC82',
         'primary-500': '#DAA520',
         'primary-dark': '#B37D00',
-        "dark-slate-gray": "#2F4F4F",
+        "dark-slate-gray": "#333333",
         "slate-gray": "#6D6D6D",
         "white-400": "rgba(255, 255, 255, 0.80)"
         // 'secondary': '#008000',

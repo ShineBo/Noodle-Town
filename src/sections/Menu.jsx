@@ -12,7 +12,7 @@ const Menu = () => {
     initial={{ opacity: 0, y: '20' }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 2 }}  
-    viewport={{ once: true }}     
+    viewport={{ once: true }}
     className="text-center text-white-400 pt-11">
       <h1 className="font-inconsol text-4xl font-bold leading-normal">Our Top Picks</h1>
       <p className="font-quicksand mt-5 text-2xl">Dive into our menu, where every dish tells a story.</p>
@@ -28,9 +28,17 @@ const Menu = () => {
     </div>
     <div 
     className="flex flex-wrap justify-around">
-      {ourPickMenu.map((topPick) => (
-        <MenuCard key={topPick.id} {...topPick}/>
-      ))}
+        {ourPickMenu.map((topPick, index) => (
+          <motion.div
+            key={topPick.id}
+            initial={{ opacity: 0, y: '20' }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, delay: index * 0.4 }}
+            viewport={{ once: true }} 
+          >
+            <MenuCard {...topPick} />
+          </motion.div>
+        ))}
     </div>
   </section>)
 };

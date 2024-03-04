@@ -1,8 +1,15 @@
 import LocationImg from '../assets/Images/locationimg.png'
+import { motion } from 'framer-motion';
 
 const Location = () => {
   return (
-    <section className='h-full w-full mb-16 max-md:mb-10'>
+    <motion.section
+    className="h-full w-full mb-16 max-md:mb-10"
+    initial={{ opacity: 0, x: '-100%' }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 1 }}  
+    viewport={{ once: true }}
+    >
         <div className="text-center max-md:mt-3 mt-12">
             <h1 className="text-4xl font-bold font-inconsol leading-normal">Location</h1>
         </div>
@@ -28,7 +35,7 @@ const Location = () => {
                 </div>
             </div>
         </div>
-    </section>
+    </motion.section>
   )
 }
 

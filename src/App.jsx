@@ -22,19 +22,19 @@ const App = () => (
         element={
           <div>
             <Nav />
-            <section id="home" className="">
+            <section id="home" className=" bg-dark-slate-gray">
               <Home />
             </section>
             <section id="about" className="max-xl:p-5 bg-white-400">
               <About />
             </section>
-            <section id="menu" className="px-60 max-xl:p-5 pb-7 bg-gradient-to-b from-black via-primary-500 to-black">
+            <section id="menu" className="px-60 max-xl:p-5 pb-7 bg-gradient-to-tr from-gray-50 via-primary-500 to-dark-slate-gray">
               <Menu />
             </section>
             <section id="location" className="px-60 max-lg:p-5 bg-white-400">
               <Location />
             </section>
-            <section id="contact" className="bg-gradient-to-tr from-black via-black to-primary-500">
+            <section id="contact" className="bg-gradient-to-tr from-dark-slate-gray via-dark-slate-gray to-primary-500">
               <Contact />
             </section>
           </div>
