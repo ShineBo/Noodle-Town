@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-// import mainBg from '../assets/Images/mainbg.jpeg'
 import reservationLogo from '../assets/Logos/reservation.png'
 import MenuLogo2 from '../assets/Logos/menu2.png'
 import homeBg from '../assets/Images/homebgnobg.webp'
@@ -10,7 +9,6 @@ const Home = () => {
 
   return (
     <section className='flex items-center justify-center  h-screen w-full relative z-0'>
-        {/* <img src={mainBg} className='absolute h-full w-full max-xl:opacity-100 object-cover' alt="" /> */}
         <motion.div 
           initial={{ opacity: 0, x: '-100vw' }}
           animate={{ opacity: 1, x: 0 }}
@@ -24,10 +22,7 @@ const Home = () => {
                     at Our Town.
                 </h1>
                 <p className="font-quicksand text-lg md:text-3xl">
-                &#34;Noodle Town, Where tradition meets innovation!&#34;
-                {/* <br /> */}
-                {/* Our chefs craft authentic flavors with a modern twist, offering<br />
-                a dining experience that&#39;s both nostalgic and exciting.&#34; */}
+                    &#34;Noodle Town, Where tradition meets innovation!&#34;
                 </p>
                 <div className=' flex gap-4 max-md:flex-col'>
                     <button onClick={() => navigate('/reservation')} className="mt-5 px-4 py-2 rounded-full border bg-primary border-gray-600 hover:bg-primary-200 focus:outline-none font-inconsol">

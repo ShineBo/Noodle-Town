@@ -1,9 +1,7 @@
-// import shanNoodle from "../assets/topPickMenu/shanNoodle.jpeg"
 import vietnamNoodle from "../assets/topPickMenu/vietnamNoodle.jpeg"
 import thaiNoodle from "../assets/topPickMenu/thaiNoodle.jpeg"
 import japanNoodle from "../assets/topPickMenu/japanNoodle.jpeg"
 import KwayTeow from "../assets/topPickMenu/KwayTeow.jpeg"
-
 
 import Mohinga from "../assets/AllMenus/LocalMenu/Mohinga.jpeg"
 import OhnNoKhaukSwe  from "../assets/AllMenus/LocalMenu/OhnNoKhaukSwe.jpeg"
@@ -117,21 +115,21 @@ export const JapaneseMenu = [
     image: Remen,
     title: "Ramen",
     description: "Ramen is a noodle soup that first appeared in Japan in 1910, when Chinese cooks combined the noodles with a salty broth.",
-    price: "Varies"
+    price: 12.99
   },
   {
     id: 2,
     image: TonkotsuRamen,
     title: "Tonkotsu Ramen",
     description: "A unique style of ramen consisting of an extremely rich, fatty pork broth, fresh noodles, soft-yolk eggs, and tender pork belly.",
-    price: "Varies"
+    price: 12.99
   },
   {
     id: 3,
     image: MisoRamen,
     title: "Miso Ramen",
     description: "Miso ramen is a flavorful dish made by cooking the miso base, broth, and vegetables in a wok.",
-    price: "Varies"
+    price: 12.99
   },
   {
     id: 4,
@@ -145,7 +143,7 @@ export const JapaneseMenu = [
     image: Yakisoba,
     title: "Yakisoba",
     description: "Yakisoba or Japanese fried noodles is a popular dish. Inspired by Chinese fried noodles, this yakisoba recipe is made with cabbage, carrot, and pork.",
-    price: "Varies"
+    price: 15.99
   }
 ];
 

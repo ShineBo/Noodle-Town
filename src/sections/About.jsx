@@ -1,5 +1,3 @@
-// import { useRef } from "react";
-// import { useInView } from "framer-motion";
 import { motion } from "framer-motion"
 import aboutpageimg from '../assets/Images/aboutpageimg.jpg'
 import about3 from '../assets/Images/about3.jpeg'
