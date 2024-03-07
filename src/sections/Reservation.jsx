@@ -6,7 +6,7 @@ import ArrowLogo from '../assets/Logos/left-arrow.png'
 import { useNavigate } from 'react-router-dom';
 import PrivacyPolicy from '../components/PrivacyPolicy';
 import TermsOfService from '../components/TermsOfService';
-import ReservationImg from '../assets/Images/ReservationPageImg.jpg'
+import ReservationImg from '../assets/Images/reservationPageImg.jpg'
 
 const ReservationForm = () => {
   const navigate = useNavigate();
