@@ -1,7 +1,7 @@
 
 
 const MenuCard = ({ id, image, title, description, price }) => (
-  <div key={id} className="flex-shrink-0 max-w-sm max-sm:w-[300px] bg-white border my-7 border-gray-200 rounded-lg shadow
+  <div key={id} className="flex-shrink-0 max-w-sm max-sm:w-[250px] bg-white border my-7 border-gray-200 rounded-lg shadow
   overflow-hidden transition-transform duration-300 transform hover:scale-105 font-quicksand">
     <div>
       <img className="rounded-t-lg object-cover h-60 w-full transition-transform duration-300 transform hover:scale-90" src={image} alt={title} />

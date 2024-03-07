@@ -59,7 +59,7 @@ const Nav = () => {
   return (
     <section className="w-full fixed bg-dark-slate-gray bg-opacity-40 z-10">
       <div className="px-4 sm:px-10 py-2 gap-16 max-xl:gap-9 flex justify-between max-md:justify-between max-lg:justify-center text-lg items-center text-white-400 font-quicksand">
-        <a href="#home" className="flex justify-center items-center gap-4 flex-shrink-0">
+        <a href="#" className="flex justify-center items-center gap-4 flex-shrink-0">
           <img src={whitelogo} alt="" width={90} height={90} className=' max-md:w-[80px] max-md:h-[80px]' />
         </a>
         <div className='flex max-md:hidden flex-col sm:flex-row justify-between gap-16 max-lg:gap-7 '>
@@ -120,6 +120,11 @@ const Nav = () => {
             <li onClick={toggleMenu}>
               <button onClick={() => handleSectionClick('contact')} className="block py-2 px-3 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
                 Contact
+              </button>
+            </li>
+            <li onClick={() => navigate('/reservation')}>
+              <button onClick={() => handleSectionClick('contact')} className="block py-2 px-3 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+                Reservation
               </button>
             </li>
           </ul>
