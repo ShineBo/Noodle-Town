@@ -38,7 +38,7 @@ const ReservationForm = () => {
             <h1 className='text-white-400 text-4xl font-quicksand my-6 font-bold leading-normal max-md:text-3xl'>Reservation Form</h1>
           </div>
           <form
-            action="https://getform.io/f/{your-form-endpoint}"
+            action="#"
             method="POST"
             className="space-y-4 font-inconsol"
           >
