@@ -32,7 +32,7 @@ const About = () => {
             className='text-center w-full lg:w-2/3'>
                 <h1 className='text-4xl max-md:text-3xl font-inconsol font-bold leading-normal whitespace-normal'>Our Story</h1>
                 <p className=' mt-16 max-md:mt-8 text-lg font-quicksand text-slate-600'>
-                Established with a passion for preserving the essence of noodle culture, Noodle Haven is more than just a restaurant; 
+                Established with a passion for preserving the essence of noodle culture, Noodle Town is more than just a restaurant; 
                 it is a celebration of the artistry that goes into creating the perfect noodle dish. 
                 From the bustling streets of Asia to your plate, we have curated a menu that reflects the motion.diversity and soul-satisfying joy of noodles.
                 </p>
